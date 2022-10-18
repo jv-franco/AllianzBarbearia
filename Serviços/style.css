@@ -350,11 +350,12 @@ main{
 
 
 .btn{
+    background-color: #eebb7d2c;
     text-decoration: none;
     display: inline-block;
     margin-bottom: 40px;
     margin-top: 80px;
-    border: 2px solid #EEBC7D;
+    border: 1px solid #EEBC7D;
     color: #EEBC7D;
     padding: 18px 40px;
     border-radius: 8px;
