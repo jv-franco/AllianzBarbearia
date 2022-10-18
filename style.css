@@ -375,7 +375,7 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    
     background-blend-mode: saturation;
     
     height: 950.6px;
