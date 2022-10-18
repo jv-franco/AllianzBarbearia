@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/png">
+    <title>Barbearia Allianz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://kit.fontawesome.com/80cfb0eb7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html#inicio"><img src="imagens/logo.png" alt="logo"></a>
+                <a href="index.html#inicio" target="_self" id="some">Allianz Barbearia</a>
+                </div>
+            <div class="menu-btn" onclick="menuShow()"><i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul>
+                <li><a href="#sobre" onclick="fechar()"> Sobre nós</a></li>
+                <li> <a href="#produtos" onclick="fechar()"> Serviços</a></li>
+                <li><a href="#como" onclick="fechar()">Local</a></li>
+                <li> <a href="#FaleConosco" onclick="fechar()"> Fale Conosco</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+
+    <main>
+        <div class="inicio" id="inicio">
+            <a href="index.html"><img src="imagens/logo.png" alt="logo barbearia" id="logo-img"></a>
+            <a href="#sobre"><button>Explorar</button></a>
+        </div>
+        <!--                    SOBRE          -->
+        <section class="Sobre" id="sobre">
+            <div class="box-sobre">
+                <h1>SOBRE NÓS</h1>
+                <p>A Barbearia Allianz foi fundada em 2018 por Felipe Marino e Thiago Borges,
+                    dois amigos que se dedicaram a criar um local para todos se sentirem confortáveis 
+                    mas com muita resenha.</p>
+
+            </div>
+        </section>
+        <!--                    PRODUTOS          -->
+        <section class="produtos" id="produtos">
+            
+            
+                
+                <div class="pcorte">
+                    <h2>Nossos Serviços</h2>
+                    
+                </div>
+                
+                   
+                <div class="imgcorte">
+                    <div><h3>Temos ótimos serviços para te atender da melhor forma possivel como cortes freestyle, luzes, platinado e muito mais opções para você ficar no estilo.</h3>
+                        </div>
+                    
+                        <a  class="btn-tab" href="./Serviços/Serviços.html">
+                        Confira
+                        </a>
+                    
+                </div>
+                
+            </div>
+                
+            
+        </section>
+
+
+        <!--                    ENDEREÇO          -->
+        <section class="como" id="como">
+            
+            <div class="andress"> 
+                <h2>Como chegar ?</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.765627281105!2d-48.307080384484614!3d-18.897475911912213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4441a3c5d17a5%3A0x56020e15cb8c776d!2sBarbearia%20Allianz!5e0!3m2!1spt-BR!2sbr!4v1665980219103!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                    <p>Nosso estabelecimento se encontra na <a class="externo" href="https://www.google.com/maps/place/R.+Mercúrio,+775+-+Jardim+Brasília,+Uberlândia+-+MG,+38401-420/@-18.8974759,-48.3070804,17z/data=!3m1!4b1!4m5!3m4!1s0x94a4441a3c5d17a3:0x206ed64196324c71!8m2!3d-18.897481!4d-48.3048917" target="_blank">Rua Mercúrio, N 775, no bairro Jardim Brasília</a></p>
+                    <a class="map" href="https://www.google.com/maps/place/R.+Mercúrio,+775+-+Jardim+Brasília,+Uberlândia+-+MG,+38401-420/@-18.8974759,-48.3070804,17z/data=!3m1!4b1!4m5!3m4!1s0x94a4441a3c5d17a3:0x206ed64196324c71!8m2!3d-18.897481!4d-48.3048917" target="_blank">
+                        
+                    </a>
+            </div>
+            
+        </section>
+        
+
+        <!--                    FALE CONOSCO          -->
+
+
+        <section class="faleconosco" id="FaleConosco">
+                <h2>Fale com a gente !</h2>
+                <div class="share">
+                    <a href="https://www.instagram.com/barbeariaallianz/" target="_blank"><div class="insta"> <i class="fa-brands fa-instagram"></i> <p>@barbeariaallianz</p></div></a>
+                    <a href="https://api.whatsapp.com/message/GLUW5V7C2QFWH1?autoload=1&app_absent=0" target="_blank">
+                        <div class="zap"> <i class="fa-brands fa-whatsapp"></i> <p>+55 34 9688-6718</p></div>
+                    </a>
+                </div>
+        </section>
+
+        
+    </main>
+    <!--                   FOOTER         -->
+    <footer>
+        <p>Direitos Reservados ® - <a class="externo" href="https://www.instagram.com/barbeariaallianz/" target="_blank">@barbeariaallianz</a></p>
+        <p>Por <a class="externo" href="https://github.com/jv-franco?tab=repositories" target="_blank">João Vitor Franco</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  
+    <script>
+    AOS.init({
+        duration:5000,                      /* Scroll Slow */
+    });                                                                 
+    </script>
+</body>
+
+</html>
