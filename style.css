@@ -478,7 +478,6 @@ main{
     background-image: url(imagens/tudo.jpeg);
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     }
 .btn-tab{
     border: 1px solid #EEBC7D;
