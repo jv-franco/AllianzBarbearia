@@ -383,7 +383,7 @@ main{
     
     background-blend-mode: saturation;
     
-    height: 950.6px;
+    height: 98vh;
     width: 100%;
     overflow: hidden;
     color: #F2F2F2;
@@ -398,9 +398,9 @@ main{
     font-family: var(--fonte-destaque);
     letter-spacing: 6px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5vh;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 4vh;
     text-shadow: 3px 1px black;
 }
 
@@ -427,7 +427,7 @@ main{
     max-width: 500px;
     
     word-wrap: break-word;
-    margin-top: 100px;
+    margin-top: 10vh;
 }
 
 
@@ -443,8 +443,8 @@ main{
     padding: 15px 30px;
     background-color: #2c2018b6;
     transition: 0.4s;
-    margin-top: 400px;
-    margin-bottom: 50px;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
 }
 
 .btn-tab:hover{
@@ -466,9 +466,19 @@ main{
 
 
 @media (max-height: 844px){
+    .produtos{
+        height: 90vh;
+    }
    .imgcorte{
-    height: 800px;
+
+    height: 90vh;
    } 
+
+   .btn-tab{
+    margin-top: 1vh;
+   }
+
+   
 }
 
 @media (max-width: 920px) {
@@ -483,14 +493,14 @@ main{
 }
 
 .produtos{
-    height: 98vh;
+    
     background-image: url(imagens/tudo.jpeg);
     background-size: cover;
     background-position: center center;
     }
 .btn-tab{
     border: 1px solid #EEBC7D;
-    margin-top: 200px;
+    
     padding: 10px 30px;
     background-color: #2c2018b6;
     
