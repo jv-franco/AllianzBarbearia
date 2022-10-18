@@ -250,7 +250,7 @@ main{
     justify-content: center;
     color: #F2F2F2;
     
-    height: 90vh;
+    height: 950px;
     width: 100%;
 
     margin-bottom: 100px;
@@ -310,6 +310,11 @@ main{
     border: 1px 1px solid white;
     
 }
+@media (max-height: 844px){
+    .inicio{
+        height:700px;
+    }
+ }
 
 @media screen and (max-width: 1100px){
     .inicio img{
@@ -460,7 +465,11 @@ main{
 }
 
 
-
+@media (max-height: 844px){
+   .imgcorte{
+    height: 800px;
+   } 
+}
 
 @media (max-width: 920px) {
 .imgcorte{
@@ -474,7 +483,7 @@ main{
 }
 
 .produtos{
-    height: 650.6px;
+    height: 98vh;
     background-image: url(imagens/tudo.jpeg);
     background-size: cover;
     background-position: center center;
