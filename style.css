@@ -353,7 +353,7 @@ main{
     align-items: center;
     flex-direction: column;
     padding: 0  30px;
-    
+    width: 900px;
     
     
     word-wrap: break-word;
@@ -364,6 +364,12 @@ main{
     font-family: var(--fonte-destaque);
     letter-spacing: 5px;
     margin: 60px 0 100px 0;
+}
+
+@media (max-height: 844px){
+    .box-sobre{
+        padding: 0 30px;
+    }
 }
 
 
