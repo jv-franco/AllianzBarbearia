@@ -325,8 +325,8 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 0 30px;
-  width: 900px;
+  padding: 0 10px;
+  width: 700px;
 
   word-wrap: break-word;
   text-align: start;
@@ -340,7 +340,7 @@ main {
 
 @media (max-height: 844px) {
   .box-sobre {
-    padding: 0 30px;
+    width: 700px;
   }
 }
 
@@ -539,6 +539,12 @@ iframe {
 @media (max-width: 717px) {
   iframe {
     width: 400px;
+  }
+}
+
+@media (max-width: 406px) {
+  iframe {
+    width: 300px;
   }
 }
 
