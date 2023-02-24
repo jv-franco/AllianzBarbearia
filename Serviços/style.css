@@ -345,7 +345,7 @@ main {
 }
 
 #corte {
-  background-image: url(../imagens/2.jpg);
+  background-image: url(../imagens/corte.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -371,7 +371,7 @@ main {
   background-repeat: no-repeat;
 }
 #sobrancelha {
-  background-image: url(../imagens/1.jpg);
+  background-image: url(../imagens/sobrancelha.jpg);
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -402,7 +402,7 @@ main {
 #platinado {
   background-image: url(../imagens/platinado.jpeg);
   background-position: center center;
-  background-size: cover;
+  background-size: c;
   background-repeat: no-repeat;
 }
 
