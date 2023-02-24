@@ -402,7 +402,7 @@ main {
 #platinado {
   background-image: url(../imagens/platinado.jpeg);
   background-position: center center;
-  background-size: c;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
